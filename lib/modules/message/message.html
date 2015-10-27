@@ -1,3 +1,19 @@
 <div>
-    TOTO
+    <md-content class="md-padding">
+        <md-card>
+            <img ng-src="{{messageCtrl.message.face}}" class="md-card-image" alt="Washed Out" style="width: 10%;">
+            <md-card-content>
+                <h2 class="md-title">{{messageCtrl.message.what}}</h2>
+                <h3>{{messageCtrl.message.what}}</h3>
+                <h4>{{messageCtrl.message.who}}</h4>
+                <p>
+                  {{messageCtrl.message.notes}}
+                </p>
+            </md-card-content>
+            <div class="md-actions" layout="row" layout-align="end center">
+                <md-button>Action 1</md-button>
+                <md-button>Action 2</md-button>
+            </div>
+        </md-card>
+    </md-content>
 </div>
