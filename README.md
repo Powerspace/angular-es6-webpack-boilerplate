@@ -9,7 +9,7 @@ cd angular-es6-webpack-boilerplate
 npm install
 ```
 
-## Dev (liverelaod server)
+## Dev (livereload server)
 
 ```
 npm run devserver
