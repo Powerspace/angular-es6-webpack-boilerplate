@@ -12,15 +12,18 @@ npm install
 ## Dev (liverelaod server)
 
 ```
-npm run-script devserver
+npm run devserver
 ```
 
 ## Build
 
 ```
-npm run-script build
+npm run build
 ```
 
 ## Author
+
+```
 Jean-Charles FAUVIN [ByJC](https://github.com/ByJC)
 Jonathan RAMIER [Dev-Ninja](https://github.com/JonathanRamier)
+```
