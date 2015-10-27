@@ -21,7 +21,7 @@ npm run devserver
 npm run build
 ```
 
-## Author
+## Authors
 
 ```
 Jean-Charles FAUVIN [ByJC](https://github.com/ByJC)
