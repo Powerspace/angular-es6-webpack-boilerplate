@@ -1,7 +1,7 @@
 {
-    "name": "angular1.4-ES6-material-webpack-boilerplate",
+    "name": "angular-es6-webpack-boilerplate",
     "version": "1.0.0",
-    "description": "A simple AngularJS 1.4 boilerplate using ES6, material design and webpack",
+    "description": "A boilerplate using ES6 and webpack",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,12 +10,12 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/shprink/angular1.4-ES6-material-webpack-boilerplate.git"
+        "url": "https://github.com/Powerspace/angular-es6-webpack-boilerplate.git"
     },
-    "author": "shprink <contact@julienrenaux.fr> (http://julienrenaux.fr/)",
+    "author": "ByJC (jeancharles.fauvin@gmail.com) Jean-Charles FAUVIN",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/shprink/angular1.4-ES6-material-webpack-boilerplate/issues"
+        "url": "https://github.com/Powerspace/angular-es6-webpack-boilerplate/issues"
     },
     "dependencies": {
         "angular": "~1.4.0",
@@ -25,7 +25,7 @@
         "angular-ui-router": "^0.2.14",
         "font-awesome": "^4.3.0"
     },
-    "homepage": "https://github.com/shprink/angular1.4-ES6-material-webpack-boilerplate",
+    "homepage": "https://github.com/Powerspace/angular-es6-webpack-boilerplate",
     "devDependencies": {
         "autoprefixer-loader": "^2.0.0",
         "babel-core": "^5.2.9",

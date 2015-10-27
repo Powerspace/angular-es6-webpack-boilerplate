@@ -1,12 +1,65 @@
-<div layout="column" class="gridListdemoDynamicTiles">
-    <md-grid-list md-cols-sm="1" md-cols-md="2" md-cols-gt-md="6" md-row-height-gt-md="1:1" md-row-height="4:3" md-gutter="8px" md-gutter-gt-sm="4px">
-        <md-grid-tile ng-repeat="tile in home.tiles" md-rowspan="{{tile.span.row}}" md-colspan="{{tile.span.col}}" md-colspan-sm="1" ng-class="tile.background">
-            <md-grid-tile-footer>
-                <h3>{{tile.title}}</h3>
-            </md-grid-tile-footer>
-        </md-grid-tile>
-    </md-grid-list>
-</div>
+<md-content md-theme="altTheme" style="height: 500px;">
+    <section>
+      <md-subheader class="md-primary">Unread Messages</md-subheader>
+      <md-list layout-padding>
+        <md-list-item class="md-3-line" ng-repeat="message in home.messages">
+            <img ng-src="{{message.face}}" class="md-avatar" alt="{{message.who}}">
+            <div class="md-list-item-text">
+              <h3>{{message.what}}</h3>
+              <h4>{{message.who}}</h4>
+              <p>
+                {{message.notes}}
+              </p>
+            </div>
+        </md-list-item>
+      </md-list>
+    </section>
+    <section>
+      <md-subheader class="md-warn">Late Messages</md-subheader>
+      <md-list layout="column" layout-padding>
+        <md-list-item class="md-3-line" ng-repeat="message in home.messages">
+          <img ng-src="{{message.face}}" class="md-avatar" alt="{{message.who}}">
+          <div class="md-list-item-text">
+            <h3>{{message.what}}</h3>
+            <h4>{{message.who}}</h4>
+            <p>
+              {{message.notes}}
+            </p>
+          </div>
+        </md-list-item>
+      </md-list>
+    </section>
+    <section>
+      <md-subheader>Read Messages</md-subheader>
+      <md-list layout="column" layout-padding>
+        <md-list-item class="md-3-line" ng-repeat="message in home.messages">
+          <img ng-src="{{message.face}}" class="md-avatar" alt="{{message.who}}">
+          <div class="md-list-item-text">
+            <h3>{{message.what}}</h3>
+            <h4>{{message.who}}</h4>
+            <p>
+              {{message.notes}}
+            </p>
+          </div>
+        </md-list-item>
+      </md-list>
+    </section>
+    <section>
+      <md-subheader class="md-accent">Archived messages</md-subheader>
+      <md-list layout="column" layout-padding>
+        <md-list-item class="md-3-line" ng-repeat="message in home.messages">
+          <img ng-src="{{message.face}}" class="md-avatar" alt="{{message.who}}">
+          <div class="md-list-item-text">
+            <h3>{{message.what}}</h3>
+            <h4>{{message.who}}</h4>
+            <p>
+              {{message.notes}}
+            </p>
+          </div>
+        </md-list-item>
+      </md-list>
+    </section>
+  </md-content>
 <md-fab-speed-dial md-open="demo.isOpen" md-direction="up" class="md-scale">
     <md-fab-trigger>
         <md-button aria-label="menu" class="md-fab md-warn">
