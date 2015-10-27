@@ -3,7 +3,7 @@
       <md-subheader class="md-primary">Unread Messages</md-subheader>
       <md-list layout-padding>
         <md-list-item class="md-3-line" ng-repeat="message in home.messages">
-            <img ng-src="{{message.face}}" class="md-avatar" alt="{{message.who}}">
+            <img ng-src="{{message.face}}" class="md-avatar" alt="{{message.who}}" ng-click="home.goToMessage(message.id);">
             <div class="md-list-item-text">
               <h3>{{message.what}}</h3>
               <h4>{{message.who}}</h4>
