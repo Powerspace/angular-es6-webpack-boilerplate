@@ -26,6 +26,8 @@ npm run build
 ```
 Jean-Charles FAUVIN [ByJC](https://github.com/ByJC)
 Jonathan RAMIER [Dev-Ninja](https://github.com/JonathanRamier)
+
+Powerspace : http://powerspace.com | http://powerspace.workable.com
 ```
 
 ## License
