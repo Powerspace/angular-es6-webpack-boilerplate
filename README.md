@@ -1,5 +1,5 @@
 # angular-es6-webpack-boilerplate
-A boilerplate based on AngularJS 1.4, ES6 and Webpack.
+A boilerplate based on AngularJS 1.5, ES6 and Webpack.
 
 ## Install
 

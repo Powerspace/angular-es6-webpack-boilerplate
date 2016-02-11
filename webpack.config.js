@@ -11,6 +11,9 @@ module.exports = {
         path: path.join(wwwPath),
         filename: 'bundle-[hash:6].js'
     },
+    babel: {
+        presets: ['es2015']
+    },
     module: {
         loaders: [{
             test: /\.html$/,
